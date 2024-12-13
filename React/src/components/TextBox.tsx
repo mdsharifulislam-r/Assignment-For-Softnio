@@ -51,7 +51,7 @@ export default function TextBox({setShow}) {
       </div>
       <div className='mt-3'>
       <h1 className='text-xl font-bold text-slate-700'>Wrist Size</h1>
-      <div className='flex gap-3 mt-3'>
+      <div className='flex gap-3 mt-3 flex-wrap'>
         <SizeButton
         size='S'
         price={100}
